@@ -6,17 +6,17 @@ Le delta hedging est une technique utilisée afin de réduire ou de couvrir le r
 
 ### 2. Portefeuille
 
-Ce programme à pour objectif d'optimiser la diversité d'un portefeuille en utilisant l'analyse en composante principale (étude de la corrélation entre les actifs), ainsi qu'améliorer son rapport risque/rentabilité à l'aide du ratio de sharpe.
+Ce programme a pour objectif d'optimiser la diversité d'un portefeuille en utilisant l'analyse en composante principale (étude de la corrélation entre les actifs), ainsi qu'améliorer son rapport risque/rentabilité à l'aide du ratio de Sharpe.
 
-## 3. __Prediction Model__
+### 3. __Prediction Model__
 
 **Ce programme tente d'évaluer les tendances du marché à l'aide de l'apprentissage automatique (machine learning). Voir le Notebook en question pour plus de détails.**
 
-## 4. **Pricing**
+### 4. __Pricing__
 
 **Ce programme a pour but d'évaluer le prix de différents types d'options. Voir le Notebook en question pour plus de détails.**
 
-## 5. **Rate Model**
+### 5. __Rate Model__
 
 **Ce programme a pour but de simuler des équations différentielles stochastiques pour prédire l'évolution des taux. Les modèles utilisés sont Vasicek, Cox-Ingersoll-Ross, Hull White. Voir le Notebook pour plus de détails.**
 
