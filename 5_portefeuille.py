@@ -40,7 +40,7 @@ annuel_volatility = pd.DataFrame(data_annuel).std() * np.sqrt(cycle_annuel)
 for k in range(nombre_annee):
     sharpe[f"sharpe{k}"] = annuel_returns[k] / annuel_volatility[k]
 
-# Facteur de variation (±20 %)
+# Facteur de variation (±15 %)
 variation = 0.15
 
 # Calcul des bornes en utilisant des opérations vectorielles
